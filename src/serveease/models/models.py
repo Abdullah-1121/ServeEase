@@ -30,3 +30,10 @@ class RecommendationResponse(BaseModel):
 
 class ServiceProviders(BaseModel):
     service_providers: List[ServiceProvider]
+
+class userInput(BaseModel):
+    userInput : str 
+    username : str
+
+class chatResponse(BaseModel):
+    response : str
